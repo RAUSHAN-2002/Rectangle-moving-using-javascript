@@ -1,0 +1,24 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#rectangle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 40%;
+    width: 13%;
+ background-image: url(https://plus.unsplash.com/premium_photo-1667861381644-3a29c049b6ec?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y29sb3JmdWwlMjBpbWFnZXMlMjBkYXJrfGVufDB8fDB8fHww);
+ background-position: center;
+ background-size: cover;
+}
